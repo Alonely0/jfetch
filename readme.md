@@ -1,6 +1,5 @@
 <p align="center">
-    <img src="https://github.com/alonely0/jfetch/preview.png" />
-    
+    <img src="https://github.com/Alonely0/jfetch/blob/master/preview.png"/>
 </p>
 
 <h1 align="center">tuxfetch</h1>
