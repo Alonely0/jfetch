@@ -6,10 +6,10 @@ default:
 
 install:
 	@mkdir -p $(DESTDIR)$(PREFIX)/bin
-	@install -Dm755 jfetch $(DESTDIR)$(PREFIX)/bin/jfetch
+	@install -Dm755 tuxfetch $(DESTDIR)$(PREFIX)/bin/tuxfetch
 	@mkdir -p $(DESTDIR)$(MANDIR)/man1
-	@cp -p jfetch.1 $(DESTDIR)$(MANDIR)/man1
+	@cp -p tuxfetch.1 $(DESTDIR)$(MANDIR)/man1
 
 uninstall:
-	@rm -f $(DESTDIR)$(PREFIX)/bin/jfetch
-	@rm -rf $(DESTDIR)$(MANDIR)/man1/jfetch.1*
+	@rm -f $(DESTDIR)$(PREFIX)/bin/tuxfetch
+	@rm -rf $(DESTDIR)$(MANDIR)/man1/tuxfetch.1*
